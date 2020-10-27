@@ -91,10 +91,27 @@ ul {
 .footer {
     background-color: var(--triple-bg-color);
 }
+/* logo footer */
+.studio.footer {
+    color: var(--primary-bg-color);
+}
 /* adres footer */
 .adres {
     color: var(--primary-bg-color);
+    /* contacts footer */
 }
 .footer .contact-title {
     color: var(--triple-texr-color);
 }
+
+/* filter button */
+.filter .title-button {
+    background-color: var(--primary-bg-color);
+    color: var(--title-text-color);
+}
+
+.filter .title-button:hover, .filter .title-button:focus {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+}
+
