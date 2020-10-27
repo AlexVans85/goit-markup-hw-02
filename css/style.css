@@ -1,0 +1,100 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --triple-texr-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196F3;
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #F5F4FA;
+    --triple-bg-color: #2F303A; 
+    }
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* троичный цвет текста (контакты в футере) rgba(255, 255, 255, 0.6) */
+/* белый цвет #FFFFFF */
+/* акцент #2196F3 */
+/* бэкграунд основной #F5F4FA */
+/* бэкграунд вторичный #2F303A */
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+ul {  
+    list-style: none;
+}
+
+
+/* logo style */
+.web {
+    color: var(--accent-color);
+}
+.studio  {
+    color: black;
+}
+.logo:hover, .logo:focus {
+    color:  var(--accent-color);
+} 
+.logo {
+    color: var(--accent-color);
+}
+
+/* site nav */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover, .site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+
+/* contacts in header */
+.contacts .link {
+    color: var(--primary-text-color );
+}
+.contacts .link:hover, .contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+    background-color: #2F303A;
+}
+.hero-title{
+    color: #ffffff; 
+}
+.button {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+}
+
+/* section */
+.section-title {
+    color: var(--title-text-color);
+}
+
+
+/* features */
+.feature-list  .title {
+    color: var(--title-text-color);
+}
+
+/* team */
+.team-list .title {
+    color: var(--title-text-color);
+}
+
+/* footer */
+.footer {
+    background-color: var(--triple-bg-color);
+}
+/* adres footer */
+.adres {
+    color: var(--primary-bg-color);
+}
+.footer .contact-title {
+    color: var(--triple-texr-color);
+}
