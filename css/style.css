@@ -144,6 +144,7 @@ letter-spacing: 0.03em;
 /* footer */
 .footer {
     background-color: var(--triple-bg-color);
+    
 }
 /* logo footer */
 .studio.footer {
@@ -168,6 +169,8 @@ letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
 }
 
 /* filter button */
